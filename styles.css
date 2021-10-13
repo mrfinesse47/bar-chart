@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+}
+
+#bar-chart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 5%;
+  width: 1000px;
+  height: 800px;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+.green {
+  background-color: lightgreen;
+  width: 1000px;
+  height: 800px;
+}
+
+.bar {
+  background-color: lightgreen;
+  height: 100%;
+}
